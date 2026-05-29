@@ -1,0 +1,33 @@
+# Virtual Environments
+.venv/
+venv/
+backend/venv/
+backend/.venv/
+
+# Environment variables & secrets
+.env
+backend/.env
+frontend/.env
+*.env
+
+# Dependencies & Node
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+out/
+
+# Python Cache & Uploads
+__pycache__/
+*.pyc
+backend/app/uploads/*
+!backend/app/uploads/.gitkeep
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
